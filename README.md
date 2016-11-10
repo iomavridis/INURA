@@ -26,11 +26,13 @@ Add the follow code at line 541
 
 * Make inot2.sh to run every time the system starts                                                                             
 
-Move internet-forward script to /etc/init.d directory                                                                           
-**$ sudo mv internet-forward /etc/init.d**
-Make it executable                                                                                                             
-**$ chmod ugo+x /etc/init.d/internet-forward**         
-Configure the init system to run this script at startup.                                                                       
+Move internet-forward script to /etc/init.d directory                                                                         
+**$ sudo mv internet-forward /etc/init.d**                                                                                   
+
+Make it executable                                                                                                           
+**$ chmod ugo+x /etc/init.d/internet-forward**                                                                               
+
+Configure the init system to run this script at startup.                                                                     
 **$ update-rc.d internet-forward defaults**
 
 
