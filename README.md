@@ -9,7 +9,7 @@ guide of image INURA
 
 # Set up
 
-* Download INURA code                                                                                                           
+**Download INURA code**                                                                                                           
                                                                                                                      
 At  **/home/pi** directory                                                                                                     
 **$ sudo git clone https://github.com/mazi-project/guides.git**                                                                 
@@ -17,14 +17,14 @@ Now you have all scripts from INURA image into the file **/INURA**
 Rename it to  mazi                                                                                                             
 **$ sudo mv /INURA /mazi**
 
-* Run check.sh when a DHCP lease is created                                                                                     
+**Run check.sh when a DHCP lease is created**                                                                                     
                                                                                                                                
 Go to dnsmasq.conf file                                                                                                       
 **$ cd  /etc/dnsmasq.conf**                                                                                                  
 Add the follow code at line 541                                                                                                 
 **hcp-script=/home/pi/mazi/check.sh**                                                                                           
 
-* Make inot2.sh to run every time the system starts                                                                             
+**Make inot2.sh to run every time the system starts**                                                                             
 
 Move internet-forward script to /etc/init.d directory                                                                         
 **$ sudo mv internet-forward /etc/init.d**                                                                                   
