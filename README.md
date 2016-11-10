@@ -32,3 +32,8 @@ Make it executable
 **$ chmod ugo+x /etc/init.d/internet-forward**         
 Configure the init system to run this script at startup.                                                                       
 **$ update-rc.d internet-forward defaults**
+
+
+# Description
+
+![inura](https://cloud.githubusercontent.com/assets/17981858/20176463/9360721e-a750-11e6-9b84-b40dd55cb143.png)
